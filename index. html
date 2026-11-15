@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RadhaKrishnaPushak</title>
+<style>
+body{font-family:Arial;margin:0;background:#fff8ed;color:#542d18;text-align:center}
+header{background:#8b4513;color:white;padding:22px}
+h1{margin:0}
+.card{background:white;margin:15px;padding:20px;border-radius:12px}
+button{background:#9b4b18;color:white;padding:12px 20px;border:0;border-radius:8px}
+</style>
+</head>
+<body>
+<header>
+<h1>RadhaKrishnaPushak</h1>
+<p>राधा कृष्ण और लड्डू गोपाल की सुंदर पोशाक</p>
+</header>
+<div class="card">
+<h2>हमारी दुकान में आपका स्वागत है 🙏</h2>
+<p>मालिक: अजय सिंह रावत</p>
+<p>डिलीवरी: केवल उत्तर प्रदेश</p>
+</div>
+<div class="card">
+<h3>राधा कृष्ण पोशाक</h3>
+<p>₹100 – ₹1000</p>
+</div>
+<div class="card">
+<h3>लड्डू गोपाल पोशाक</h3>
+<p>₹100 – ₹1000</p>
+</div>
+<div class="card">
+<h3>मुकुट और ज्वेलरी</h3>
+<p>₹50 – ₹500</p>
+</div>
+<div class="card">
+<h3>बांसुरी और माला</h3>
+<p>₹50 – ₹300</p>
+</div>
+<div class="card">
+<p>ऑर्डर के लिए WhatsApp करें</p>
+<a href="https://wa.me/918527661499">
+<button>WhatsApp Order</button>
+</a>
+</div>
+</body>
+</html>
