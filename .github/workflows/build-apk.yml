@@ -46,8 +46,10 @@ jobs:
       - name: Create Android app
         run: |
           mkdir -p app/src/main/java/com/radhakrishnapushak/app
-
+          mkdir -p app/src/main/res/drawable
+          cp file_00000000a4088211b96ebdc25be3eaad.png app/src/main/res/drawable/app_logo.png
           cat > settings.gradle <<'EOF'
+          
           pluginManagement {
               repositories {
                   google()
@@ -107,6 +109,7 @@ jobs:
               <uses-permission android:name="android.permission.INTERNET" />
               <application
                   android:label="RadhaKrishnaPushak"
+                  android:icon="@drawable/app_logo"
                   android:theme="@android:style/Theme.Material.Light.NoActionBar"
                   android:usesCleartextTraffic="false">
                   <activity
