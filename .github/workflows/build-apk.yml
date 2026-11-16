@@ -45,6 +45,8 @@ jobs:
 
       - name: Create Android app
         run: |
+               
+          mkdir -p app/src/main/java/com/radhakrishnapushak/app
           mkdir -p app/src/main/res/mipmap
           cp file_00000000a4088211b96ebdc25be3eaad.png app/src/main/res/mipmap/app_logo.png
           cat > settings.gradle <<'EOF'
